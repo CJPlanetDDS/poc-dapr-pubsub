@@ -13,7 +13,7 @@ while (true)
 
         // Publish an event/message using Dapr PubSub
         await client.PublishEventAsync("orderpubsub", "orders", order);
-        Console.WriteLine("Published data: " + order);
+        Console.WriteLine("Published data from CJ: " + order);
 
         await Task.Delay(TimeSpan.FromSeconds(1));
     }
