@@ -1,3 +1,5 @@
+> **Note:** This POC uses the subscription 'devteam-dapr-sbox-cent' and all the resources listed under this sub on Azure.
+
 # Microservice communication using pubsub (async)
 
 ![](images/pubsub-diagram.png)
